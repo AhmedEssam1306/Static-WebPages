@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="fix-bpl" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Live Football</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 300%;
+            font-family: Arial;
+        }
+        
+        h2 {
+            color: black;
+            text-align: center;
+            font-size: 250%;
+        }
+        
+        table {
+            font-size: 150%;
+            text-align: center;
+            border-style: groove;
+        }
+        
+        th {
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+        
+        td {
+            font-family: Arial;
+            background-color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+
+            <div style="text-align:center;"><img src="Images/BPL.png" width="440" hight="348" </div>
+                <div class="field" id="searchform">
+                    <input type="text" id="searchterm" placeholder="what are you searching for?" />
+                    <button type="button" onclick="location.href='homepage.html'" id="search">Find!</button>
+                </div>
+                <hr>
+                <ul>
+                    <div class="table">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="news.html">Football News</a></li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Results></a>
+                            <div class="dropdown-content-res">
+                                <a href="Res-bbva.html">Liga BBVA</a>
+                                <a href="Res-bpl.html">Premiere League</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Fixtures></a>
+                            <div class="dropdown-content-fix">
+                                <a href="Fix-bbva.html">Liga BBVA</a>
+                                <a href="Fix-bpl.html">Premiere League</a>
+                            </div>
+                        </div>
+                        <li><a href="ucl.html">UCL</a></li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Leaderboards></a>
+                            <div class="dropdown-content">
+                                <a href="bbva.html">Liga BBVA</a>
+                                <a href="bpl.html">Premiere League</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </ul>
+
+                <hr>
+        </header>
+        <h2><u>Premier Leauge</u></h2>
+
+        <table border="2" style="width:100%">
+
+            <tr>
+                <th colspan="3">Teams</th>
+                <th>Time</th>
+                <th>Channel</th>
+            </tr>
+
+            <tr>
+                <th>Home</th>
+                <th></th>
+                <th>Away</th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <td>Chelsea<img src="Images/chel.png" width="42" height="35" </td>
+                    <td id="VS">VS</td>
+                    <td><img src="Images/asl.png" width="42" height="35">Aston Villa</td>
+                    <td>17-10 @18:30</td>
+                    <td><img src="Images/hd3.png" width="100" hight="50" </td>
+            </tr>
+
+            <tr>
+                <td>Everton<img src="Images/eve.png" width="42" height="35" </td>
+                    <td id="VS">VS</td>
+                    <td><img src="Images/man.png" alt="Man Utd" width="42" height="35">Man Utd</td>
+                    <td>17-10 @18:30</td>
+                    <td><img src="Images/hd1.png" width="100" hight="50" </td>
+            </tr>
+
+            <tr>
+                <td>Watford<img src="Images/wat.png" width="42" height="35" </td>
+                    <td id="VS">VS</td>
+                    <td><img src="Images/Arsenal.png" alt="Arsenal" width="42" height="35">Arsenal</td>
+                    <td>17-10 @18:30</td>
+                    <td><img src="Images/hd5.png" width="100" hight="50" </td>
+            </tr>
+
+            <tr>
+                <td>Man City<img src="Images/city.png" alt="Man City" width="42" height="35"></td>
+                <td id="VS">VS</td>
+                <td><img src="Images/bor.png" width="42" height="35">Bournemouth</td>
+                <td>17-10 @18:30</td>
+                <td><img src="Images/hd7.png" width="100" hight="50" </td>
+            </tr>
+        </table>
+        <hr>
+        <footer class="footer">
+            <div>
+                <p class="icons">
+                    <a href="#" class="icon-button twitter">
+                        <i class="fi-social-twitter"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button facebook">
+                        <i class="fi-social-facebook"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button gplus">
+                        <i class="fi-social-google-plus"></i><span></span>
+                    </a>
+                </p>
+                <p class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </p>
+                <p class="copywrite">Copywrite not copypwrite © 2015</p>
+            </div>
+        </footer>
+        </div>
+</body>
+
+</html>

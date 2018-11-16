@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html class="home" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Live Football</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="JS.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+    <!--   <script>
+        function myFunction() {
+            window.alert("9th of December, 09:45pm");
+        }
+
+    </script> -->
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+
+            <h1 align="center"></h1>
+            <div style="text-align: center;">
+                <IMG SRC="Images/barcca.png" ALT="UCL" width="400" hight="400"> </div>
+
+            <div>
+                <!--  <p1 style="text-align:left; margin-left:10px; margin-top:100px;">
+                    <button type="button" onclick="myFunction()">When is Barcelona's next match?</button>
+                </p1> -->
+                <div class="field" id="searchform">
+                    <input type="text" id="searchterm" placeholder="what are you searching for?" />
+                    <button type="button" onclick="location.href='homepage.html'" id="search">Find!</button>
+                </div>
+            </div>
+
+            <hr>
+        </header>
+
+        <div class="table">
+
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="news.html">Football News</a></li>
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Results></a>
+                <div class="dropdown-content-res">
+                    <a href="Res-bbva.html">Liga BBVA</a>
+                    <a href="Res-bpl.html">Premier League</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Fixtures></a>
+                <div class="dropdown-content-fix">
+                    <a href="Fix-bbva.html">Liga BBVA</a>
+                    <a href="Fix-bpl.html">Premier League</a>
+                </div>
+            </div>
+            <li><a href="ucl.html">UCL</a></li>
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Leaderboards></a>
+                <div class="dropdown-content">
+                    <a href="ll.php">Liga BBVA</a>
+                    <a href="bb.php">Premier League</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div margin-left: 10px;>
+            <h5><strong>Barcelona vs Atletico Madrid 2-1</strong></h5>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1-8iKOx2o74" frameborder="0" allowfullscreen align="middle"></iframe>
+        </div>
+        <footer class="footer">
+            <div>
+                <p class="icons">
+                    <a href="#" class="icon-button twitter">
+                        <i class="fi-social-twitter"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button facebook">
+                        <i class="fi-social-facebook"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button gplus">
+                        <i class="fi-social-google-plus"></i><span></span>
+                    </a>
+                </p>
+                <p class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </p>
+                <p class="copywrite">Copywrite not copypwrite � 2015</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+<!doctype html>
+<html class="bpl" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Live Football</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <style>
+        h1 {
+            font-siz: 190%;
+            color: red;
+            text-align: center;
+        }
+        
+        th {
+            font-size: 150%;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+        
+        td {
+            text-align: center;
+            font-size: 120%;
+            font-weight: bold;
+        }
+        
+        html {
+            background: url(Images/wall.jpg) no-repeat center fixed;
+            background-size: 100% 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="field" id="searchform">
+            <input type="text" id="searchterm" placeholder="what are you searching for?" />
+            <button type="button" onclick="location.href='homepage.html'" id="search">Find!</button>
+        </div>
+        </div>
+    </header>
+    <div id="wrap">
+        <ul>
+            <div class="table">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="news.html">Football News</a></li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#">Results></a>
+                    <div class="dropdown-content-res">
+                        <a href="Res-bbva.html">Liga BBVA</a>
+                        <a href="Res-bpl.html">Premiere League</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#">Fixtures></a>
+                    <div class="dropdown-content-fix">
+                        <a href="Fix-bbva.html">Liga BBVA</a>
+                        <a href="Fix-bpl.html">Premiere League</a>
+                    </div>
+                </div>
+                <li><a href="ucl.html">UCL</a></li>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#">Leaderboards></a>
+                    <div class="dropdown-content">
+                        <a href="bbva.html">Liga BBVA</a>
+                        <a href="bpl.html">Premiere League</a>
+                    </div>
+
+                </div>
+            </div>
+        </ul>
+        <hr>
+
+        <h1><u>Premier League</u></h1>
+
+        <table border="2" style="width:100%">
+
+            <tr>
+                <th>No.</th>
+                <th>Team</th>
+                <th &nspb;@nspb;@nspb;>Pl</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>+/-</th>
+                <th>PT</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Man City</td>
+                <td>8</td>
+                <td>6</td>
+                <td>0</td>
+                <td>2</td>
+                <td>12</td>
+                <td>18</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Arsenal</td>
+                <td>8</td>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>6</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Man Utd</td>
+                <td>8</td>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>4</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Crystal Palace</td>
+                <td>8</td>
+                <td>5</td>
+                <td>0</td>
+                <td>3</td>
+                <td>4</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Leicester</td>
+                <td>8</td>
+                <td>4</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>West Ham</td>
+                <td>8</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>6</td>
+                <td>14</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Everton</td>
+                <td>8</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>4</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Tottenham</td>
+                <td>8</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>4</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Southampton</td>
+                <td>8</td>
+                <td>3</td>
+                <td>3</td>
+                <td>2</td>
+                <td>3</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Liverpool</td>
+                <td>8</td>
+                <td>3</td>
+                <td>3</td>
+                <td>2</td>
+                <td>-2</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>Swansea</td>
+                <td>8</td>
+                <td>2</td>
+                <td>4</td>
+                <td>2</td>
+                <td>0</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>Watford</td>
+                <td>8</td>
+                <td>2</td>
+                <td>4</td>
+                <td>2</td>
+                <td>-1</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>Norwich</td>
+                <td>8</td>
+                <td>2</td>
+                <td>3</td>
+                <td>3</td>
+                <td>-2</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>Stoke</td>
+                <td>8</td>
+                <td>2</td>
+                <td>3</td>
+                <td>3</td>
+                <td>-2</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>Bournemouth</td>
+                <td>8</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>-2</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>Chelsea</td>
+                <td>8</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>-5</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>West Brom</td>
+                <td>8</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>-5</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>Aston Villa</td>
+                <td>8</td>
+                <td>1</td>
+                <td>1</td>
+                <td>6</td>
+                <td>-5</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>Sunderland</td>
+                <td>8</td>
+                <td>0</td>
+                <td>3</td>
+                <td>5</td>
+                <td>-10</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>Newcastle</td>
+                <td>8</td>
+                <td>0</td>
+                <td>3</td>
+                <td>5</td>
+                <td>-11</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <hr>
+        <footer class="footer">
+            <div>
+                <p class="icons">
+                    <a href="#" class="icon-button twitter">
+                        <i class="fi-social-twitter"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button facebook">
+                        <i class="fi-social-facebook"></i><span></span>
+                    </a>
+                    <a href="#" class="icon-button gplus">
+                        <i class="fi-social-google-plus"></i><span></span>
+                    </a>
+                </p>
+                <p class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </p>
+                <p class="copywrite">Copywrite not copypwrite © 2015</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

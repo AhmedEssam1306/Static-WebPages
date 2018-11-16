@@ -1,0 +1,431 @@
+    body {
+        position: relative;
+        margin: 0 auto;
+    }
+    #VS {
+        background-color: black;
+        color: white;
+    }
+    /*-- Frame --*/
+    
+    h5 {
+        text-align: center;
+        font-size: 35px;
+    }
+    /*-- paragrapgh --*/
+    
+    .info {
+        clear: both;
+        position: relative;
+        padding: 4em;
+    }
+    /*-- Adding the background --*/
+    
+    .home,
+    .html {
+        background: url(Images/barcelonaback.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    .news {
+        background: url(Images/messi.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    .ucl {
+        background: url(Images/uclback.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    .res-bbva {
+        background: url(Images/neymar.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    .fix-bbva {
+        background: url(Images/suarez.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    .bbva {
+        background: url(Images/iniesta.jpg) no-repeat center fixed;
+        background-size: 100% 100%;
+    }
+    /*-- Wrapping the website to center it --*/
+    
+    #wrap {
+        width: 1200px;
+        margin: 0 auto;
+        background: url(Images/bck.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    /*-- footer --*/
+    
+    .footer {
+        clear: both;
+        position: relative;
+        height: 4.5em;
+        background-color: black;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5rem;
+    }
+    .footer p.copywrite {
+        color: #8f9296;
+        font-size: 0.875rem;
+        margin: 0 auto;
+    }
+    .footer .links a {
+        list-style: none;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0;
+        padding-left: 1em;
+    }
+    /*-- Header 1,2 and 3 for some pages --*/
+    
+    h1,
+    h2 {
+        color: black;
+        text-decoration: underline;
+        font-size: 250%;
+    }
+    h3 {
+        font-size: 125%;
+        font-family: Arial;
+        text-align: center;
+    }
+    /*-- centering some images --*/
+    
+    img.middle {
+        vertical-align: text-middle;
+        margin-top: 0px;
+    }
+    /*-- centering the nav bar --*/
+    
+    .table {
+        display: table;
+        margin: 0 auto;
+    }
+    /*-- Styling the nav bar --*/
+    
+    .table {
+        padding: 0;
+        background-color: black;
+    }
+    .table li {
+        float: left;
+    }
+    li a,
+    .dropbtn {
+        font-size: 25px;
+        display: inline-block;
+        color: white;
+        width: 150px;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+    }
+    li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: darkgray;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    /*-- Styling the Submenu --*/
+    
+    .dropdown-content,
+    .dropdown-content-res,
+    .dropdown-content-fix {
+        font-size: 20px;
+        display: none;
+        position: absolute;
+        background-color: darkgray;
+        min-width: 182px;
+    }
+    .dropdown-content-res a,
+    .dropdown-content a,
+    .dropdown-content-fix a {
+        color: white;
+        padding: 12px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content-res a:hover,
+    .dropdown-content a:hover,
+    .dropdown-content-fix a:hover {
+        background-color: black;
+    }
+    .dropdown:hover .dropdown-content,
+    .dropdown:hover .dropdown-content-res,
+    .dropdown:hover .dropdown-content-fix {
+        display: block;
+    }
+    /*-- Sizing font of "barcelona's next match" button --*/
+    
+    button {
+        font-size: 25px;
+    }
+    /*-- Alert of "barcelona's next match" --*/
+    
+    form {
+        text-align: right;
+        margin-right: 140px;
+    }
+    /*-- Search form --*/
+    
+    @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+    #searchform {
+        position: relative;
+        display: flex;
+        margin: 2em auto;
+        width: 40%;
+        flex-direction: row;
+        box-shadow: 1px 1px 0 rgb(9, 24, 126), 2px 2px 0 rgb(9, 24, 126), 3px 3px 0 rgb(9, 24, 126), 4px 4px 0 rgb(9, 24, 126), 5px 5px 0 rgb(9, 24, 126), 6px 6px 0 rgb(9, 24, 126), 7px 7px 0 rgb(9, 24, 126);
+    }
+    .field input[type=text],
+    .field button {
+        display: block;
+        font: 1.2em 'Montserrat Alternates';
+    }
+    .field input[type=text] {
+        flex: 1;
+        padding: 0.6em;
+        border: 0.2em solid rgb(9, 24, 126);
+    }
+    .field button {
+        padding: 0.6em 0.8em;
+        background-color: rgb(142, 10, 70);
+        color: white;
+        border: none;
+    }
+    .field button:hover {
+        background-color: rgb(212, 170, 0);
+        box-shadow: 2px 2px 0 rgb(212, 170, 0), 3px 3px 0 rgb(212, 170, 0), 4px 4px 0 rgb(212, 170, 0), 5px 5px 0 rgb(212, 170, 0), 6px 6px 0 rgb(212, 170, 0), 7px 7px 0 rgb(212, 170, 0);
+    }
+    /*--image container --*/
+    
+    div.img {
+        margin: 20px;
+        border: 3px solid black;
+        paddding: 25px;
+        float: left;
+        width: 354px;
+        background-color: white;
+    }
+    div.img:hover {
+        border: 3px solid white;
+        transform: scale(1.01);
+    }
+    div.img img {
+        width: 100%;
+        height: auto;
+    }
+    div.desc {
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
+    /*-- icons --*/
+    
+    i {
+        font-size: 2.5rem;
+    }
+    .icon-button {
+        border-radius: 3.6rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        margin: 0 5px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background: white;
+    }
+    .icon-button span {
+        display: block;
+        border-radius: 0;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transition: all 0.3s;
+    }
+    .icon-button:hover span {
+        display: block;
+        border-radius: 3.6rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        margin: -1.8rem;
+    }
+    .icon-button i {
+        background: none;
+        height: 3.6rem;
+        width: 3.6rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        line-height: 3.6rem;
+        transition: all 0.3s;
+    }
+    .twitter span {
+        background-color: #4099ff;
+    }
+    .facebook span {
+        background-color: #3B5998;
+    }
+    .gplus span {
+        background-color: #db5a3c;
+    }
+    .icon-button .fi-social-twitter {
+        color: #4099ff;
+    }
+    .icon-button .fi-social-facebook {
+        color: #3b5998;
+    }
+    .icon-button .fi-social-google-plus {
+        color: #db5a3c;
+    }
+    .icon-button:hover .fi-social-twitter,
+    .icon-button:hover .fi-social-facebook,
+    .icon-button:hover .fi-social-google-plus {
+        color: white;
+        font-size: 2.6rem;
+    }
+    /*-- Tables --*/
+    
+    #plans,
+    #plans ul,
+    #plans ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #pricePlans {
+        display: block;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #pricePlans #plans .plan {
+        background: #fff;
+        float: left;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 0 1px 3px black;
+    }
+    .planContainer .title h2 {
+        text-decoration: none;
+        font-size: 2.125em;
+        font-weight: 300;
+        color: #3e4f6a;
+        margin: 0;
+        padding: 15px;
+    }
+    .planContainer .price p {
+        background: #3e4f6a;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        height: 60px;
+        line-height: 58px;
+        margin: 0 0 20px;
+    }
+    #stad {
+        font-size: 35px;
+    }
+    #stadium {
+        font-size: 20px;
+    }
+    .planContainer .options li {
+        font-size: 45px;
+        color: #364762;
+        line-height: 40px;
+    }
+    .planContainer .options li span {
+        font-weight: 600;
+        color: #979797;
+        padding-left: 20px;
+    }
+    .planContainer .button a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #3e4f6a;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 47px;
+        border: 2px solid #3e4f6a;
+        display: inline-block;
+        width: 80%;
+        height: 45px;
+        border-radius: 4px;
+        margin: 25px 0 25px;
+    }
+    #pricePlans #plans .plan {
+        width: 30%;
+        margin: 0 1.33% 20px 0;
+        transition: all .25s;
+    }
+    #pricePlans #plans .plan:hover {
+        transform: scale(1.04);
+    }
+    .planContainer .button a {
+        transition: all .25s;
+    }
+    .planContainer .button a:hover {
+        background: #3e4f6a;
+        color: #fff;
+    }
+    /*-- Flipping cards --*/
+    
+    .flip-container {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    /* flip the pane when hovered */
+    
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+    .flip-container,
+    .front,
+    .back {
+        background-color: white;
+        width: 320px;
+        height: 360px;
+    }
+    /* flip speed goes here */
+    
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    /* hide back of pane during swap */
+    
+    .front p {
+        text-align: center;
+        font-family: arial;
+    }
+    .front,
+    .back {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .back p {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 8px;
+        font-weight: bold;
+        text-align: center;
+    }
+    /* back, initially hidden pane */
+    
+    .back {
+        transform: rotateY(180deg);
+    }
