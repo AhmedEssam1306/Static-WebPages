@@ -9,6 +9,7 @@ applying CSS to align and decorate the concent.
 Includes how to create a Table , navigate through Pages and putting some good-looking cards for previewing Upcoming Matches.
 
 Future Work: 
+
 1- Make Table Dynamic , so we can read from DB
 2- Enhance the design and the workflow
 3- Concent of News , Matches and Pages to be read from DB
